@@ -12,3 +12,46 @@
     font-size: 24px;
     border-radius: 5px;
 }
+
+.page-layout{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 60px;
+    gap: 10px;
+    height: 500px;
+}
+.header{
+    grid-area: header;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+.main{
+    grid-area: main;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+.footer{
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
