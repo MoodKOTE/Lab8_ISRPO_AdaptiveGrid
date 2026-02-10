@@ -13,6 +13,8 @@
     border-radius: 5px;
 }
 
+
+/* // задание 2 */
 .page-layout{
     display: grid;
     grid-template-areas: 
@@ -56,6 +58,7 @@
     border-radius: 5px;
 }
 
+/* задание 3 */
 .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
